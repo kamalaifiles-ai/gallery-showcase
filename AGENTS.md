@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Keep the gallery as a single, client-filtered contact sheet because its collection is intentionally static and editorial.
+- Keep stateful page components outside route modules so TanStack route splitting cannot load React hooks through the route-registration chunk.
